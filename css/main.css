@@ -1,0 +1,211 @@
+/*** Base Style ***/
+
+body {
+    background-color: #1f202b;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    height: 3350px;
+}   
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+} 
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+span {
+    color: #06acfe;
+}
+
+/*** Grid ***/
+
+.main-container {
+    height: 3560px;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.header-container {
+    height: 800px;
+    margin: 0;
+    width: 1400px;
+}
+
+.header-full {
+    height: 800px;
+    width: 1398px;
+}
+
+.header-container .half-width {
+    height: 65px;
+}
+
+.work-container {
+    height: 1545px;
+    margin: 0 100px;
+    width: 1200px;
+}
+
+.work-container .half-width {
+    padding: 5px;
+    height: 370px;
+    padding: 20px 0;
+    width: 48.7%
+}
+
+.third-height {
+    height: 430px;
+}
+
+.about-container {
+    background: url('../img/about-me.png') no-repeat;
+    height: 550px;
+    margin: 0 100px;
+    width: 1200px;
+}
+
+.contact-container {
+    height: 650px;
+    margin: 0 100px;
+    width: 1200px;
+}
+
+.full-width {
+    clear: both;
+    width: 100%;
+}
+
+.half-width {
+    float: left;
+    width: 49.7%;
+}
+
+.third-width {
+    float: left;
+    height: 440px;
+    width: 32%;
+}
+
+/*** Header ***/
+
+header h1 {
+    clear: both;
+    background: url('../img/hero-background.png') no-repeat;
+    background-size: auto;
+    padding: 300px 0 275px 45px;
+}
+
+header h2 {
+    float: left;
+    font-size: 20px;
+    padding: 15px;
+}
+
+nav {
+    float: right;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 35px; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #06acfe;
+    text-decoration: line-through;
+}
+
+/*** Home ***/
+
+.anchor p {
+    height: 28px;
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+}
+
+a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*** Work ***/
+
+.work-container h2 {
+    text-align: center;
+}
+
+#rogue img {
+    margin-right: 45px;
+}
+
+#rogue-text {
+    margin-left: 45px;
+    text-align: left;
+}
+
+#jubilee img {
+    margin-left: 45px;
+    margin-left: 45px;
+}
+
+#jubilee-text {
+    text-align: right;
+    margin-right: 45px;
+}
+
+#holstee img {
+    margin-right: 45px;
+}
+
+#holstee-text {
+    margin-left: 45px;
+    text-align: left;
+}
+
+/*** About ***/
+
+.about-container h2 {
+    text-align: center;
+}
+
+#about-me {
+    padding-left: 30px;
+}
+
+/*** Contact ***/
+
+.contact-container h2 {
+    text-align: center;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 16px;
+}
+
+#contact-text {
+    text-align: center;
+}
